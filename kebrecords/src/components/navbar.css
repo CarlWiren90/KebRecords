@@ -1,0 +1,12 @@
+.navbar {
+    width: 100%;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar-img {
+    scale: 0.8;
+    margin-left: 3em;
+    margin-right: 3em;
+}
