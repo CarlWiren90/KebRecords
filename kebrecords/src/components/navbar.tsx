@@ -4,11 +4,10 @@ import './navbar.css';
 const Navbar = () => {
     return (
         <div className="navbar">
-            <a href='#'><img src='./src/assets/Info.png' className='navbar-img'/></a>
-            <a href='#'><img src='./src/assets/Routes.png' className='navbar-img'/></a>
-            <a href='#'><img src='./src/assets/OfficialRecords.png' className='navbar-img'/></a>
-            <a href='#'><img src='./src/assets/Submitrecord.png' className='navbar-img'/></a>
-            <a href="#"><img src='./src/assets/Contact.png' className='navbar-img'/></a>
+            <a href='#' className='link'>Info</a>
+            <a href='#' className='link'>Routes</a>
+            <a href='#' className='link'>Official Records</a>
+            <a href='#' className='link'>Submit Records</a>
         </div>
     );
 }
