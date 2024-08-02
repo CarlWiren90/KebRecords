@@ -1,10 +1,10 @@
 import React from 'react';
 import './header.css';
-import Navbar from './navbar.tsx';
 
 const Header = () => {
     return(
         <div className='header'>
+            <div className='wrapper'>
             <div className='logo'>
                 <img src='./src/assets/logo2.png' className='logo-img'/>
             </div>
@@ -16,7 +16,7 @@ const Header = () => {
                     Records
                 </h1>
             </div>
-            <Navbar/>
+            </div>
             <div className='contact'>
                 Contact
             </div>

@@ -1,34 +1,40 @@
 .header {
     width: 100vw;
-    height: 65px;
+    height: 75px;
     margin: 0;
     padding: 0;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: center;
-    align-items: center;
     flex-wrap: wrap;
+    align-items: center;
+    margin-top: -15px;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    margin-left: -115px;
 }
 
 .logo-img {
-    width: 125px;
-    height: 100px;
-    margin-top: -13px;
-    margin-left: -30px;
+    width: 160px;
+    height: 125px;
     padding: 0;
-
 }
 
 .contact {
-    margin-top: -20px;
-    margin-right: 20px;
+
     border: 1px black solid;
     padding: 7px;
     border-radius: 2em;
     scale: 0.9;
     transition: 0.2s ease-in-out all;
     font-family: 'julius sans one';
+    margin-top: -20px;
+    margin-right: 20px;
 }
 
 .contact:hover {
@@ -37,19 +43,21 @@
 }
 
 .logo-txt {
-    margin-top: 25px;
+
+    font-family: 'julius sans one';
+    margin-left: -40px;
+    margin-top: -10px;
+
 }
 
 .logo-txt1 {
     font-family: 'julius sans one';
-    margin-left: -190px;
     font-size: 25px;
-    margin-top: -30px;
+
 }
 
 .logo-txt2 {
     font-family: 'julius sans one';
-    margin-left: -190px;
     font-size: 25px;
     margin-top: -20px;
 }
