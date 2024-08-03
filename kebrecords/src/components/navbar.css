@@ -1,33 +1,44 @@
 .navbar {
-    width: 750px;
+    width: 80%;
+    max-width: 800px;
+    min-height: 35px;
+    max-height: 400px;
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    min-width: fit-content;
-    flex-wrap: wrap;
+    flex-direction: row; 
+    align-items: center;
+    justify-content: space-between; 
+    flex-wrap: wrap;   
+ 
 }
+
 .link {
     font-family: 'julius sans one';
     text-decoration: none;
     color: black;
-    font-size: 20px;
-    position: relative;
+    font-size: 24px;
     transition: color 0.3s ease-in-out; 
+    position: relative;
+    text-align: center;
+    flex: 1 1 auto; 
+
 }
 
-
 .link::after {
-    content: ''; 
+    content: '';
+    border-bottom: 1px solid black;    width: 0;
+    transition: width ease-in-out 0.4s;
     position: absolute;
     left: 50%;
-    bottom: 0;
-    transform: translateX(-50%); 
-    width: 0;
-    height: 1px; 
-    background-color: black;
-    transition: width 0.3s ease-in-out;
+    bottom: 0px;
+    transform: translateX(-50%);
 }
 
 .link:hover::after {
-    width: 100%; 
+    width: 100%;
 }
+
+@media (max-width: 600px) { 
+    .link {     
+    flex: 100%;   
+       } 
+    }

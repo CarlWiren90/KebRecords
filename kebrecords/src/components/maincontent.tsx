@@ -5,8 +5,11 @@ import Navbar from './navbar.tsx';
 
 const MainContent = () => {
     return (
-        <div className="maincontent">
-            <Navbar/>
+        <div className="display">
+                <Navbar/>
+            <div className="maincontent">
+
+            </div>
         </div>
     );
 }
